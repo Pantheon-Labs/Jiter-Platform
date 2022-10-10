@@ -6,6 +6,11 @@ body:
     attributes:
       value: |
         Thanks for taking the time to request a new feature! Please check for similar issues before opening a new one and always include as much detail as possible.
+
+        # Are you in the right place?
+        This repo is for issues related to the Jiter platform and API.
+        - For issues related to docs, please see [the Jiter Docs repo](https://github.com/Pantheon-Labs/Jiter-Docs)
+        - For issues related to Node SDK, please see [`@jiter/node`, the official Jiter Node SDK](https://github.com/Pantheon-Labs/Jiter-Node)
   - type: checkboxes
     id: prereqs
     attributes:
