@@ -1,0 +1,45 @@
+name: 🚀 Feature request
+description: Request a new feature
+labels: [":new: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to request a new feature! Please check for similar issues before opening a new one and always include as much detail as possible.
+  - type: checkboxes
+    id: prereqs
+    attributes:
+      label: Prerequisites
+      description: Before opening this issue...
+      options:
+        - label: I checked to make sure this was the best repo for this issue AND I checked open and closed issues to make sure this issue has not already been reported
+          required: true
+  - type: input
+    id: description
+    attributes:
+      label: High-Level Description
+      description: A clear and concise description of what the feature is
+      placeholder: I want a new button to do things faster
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: What value does it add?
+      description: Why do you want this feature and how do you plan to use it?
+      placeholder: The button will look cool and it'll make me faster
+    validations:
+      required: true
+  - type: textarea
+    id: expectations
+    attributes:
+      label: Expected Behavior
+      description: How do you expect it to work?
+      placeholder: I expect to click a button and have it launch a rocket to the 🌘
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Screenshots and other context
+      description: Anything else you'd like to share? Any screenshots to include?
