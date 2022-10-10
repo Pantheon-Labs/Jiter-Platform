@@ -11,7 +11,8 @@ body:
         This repo is for issues related to the Jiter platform and API.
         - For issues related to docs, please see [the Jiter Docs repo](https://github.com/Pantheon-Labs/Jiter-Docs)
         - For issues related to Node SDK, please see [`@jiter/node`, the official Jiter Node SDK](https://github.com/Pantheon-Labs/Jiter-Node)
-        </br></br></br></br></br>
+
+        ---
   - type: checkboxes
     id: prereqs
     attributes:
