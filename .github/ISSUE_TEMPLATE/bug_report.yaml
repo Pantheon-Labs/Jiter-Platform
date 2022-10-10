@@ -28,10 +28,10 @@ body:
       label: Repro Steps
       description: How did this happen? Can you get it to happen again?
       placeholder: Tell us how to recreate it or how it happened!
-      value: "Steps to reproduce the behavior:
-        1. 
-        2. 
-        3. 
+      value: "Steps to reproduce the behavior:\n
+        1. \n
+        2. \n
+        3. \n
         4. "
     validations:
       required: true
