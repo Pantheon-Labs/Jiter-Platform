@@ -1,1 +1,49 @@
-
+name: 🐞 Bug Report
+description: Report a bug
+labels: ["bug", ":new: needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please check for similar issues before opening a new one and always include as much detail as possible.
+  - type: checkboxes
+    id: prereqs
+    attributes:
+      label: Prerequisites
+      description: Before opening this issue...
+      options:
+        - label: I checked to make sure this was the best repo for this issue AND I checked open and closed issues to make sure this issue has not already been reported
+          required: true
+  - type: input
+    id: description
+    attributes:
+      label: High-Level Description
+      description: A clear and concise description of what the bug is
+      placeholder: The button broke because reasons
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Repro Steps
+      description: How did this happen? Can you get it to happen again?
+      placeholder: Tell us how to recreate it or how it happened!
+      value: "Steps to reproduce the behavior:
+        1. 
+        2. 
+        3. 
+        4. "
+    validations:
+      required: true
+  - type: input
+    id: expectations
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+      placeholder: I expected the button to be clickable
+    validations:
+      required: true
+  - type: textarea
+    id: anything-else
+    attributes:
+      label: Anything else you want to share?
