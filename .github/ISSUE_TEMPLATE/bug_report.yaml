@@ -35,7 +35,7 @@ body:
         4. "
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: expectations
     attributes:
       label: Expected Behavior
@@ -44,6 +44,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: anything-else
+    id: additional
     attributes:
-      label: Anything else you want to share?
+      label: Screenshots and other context
+      description: Anything else you'd like to share? Any screenshots to include?
